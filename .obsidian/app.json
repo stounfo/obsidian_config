@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "showFrontmatter": true,
+  "useTab": false,
+  "showInlineTitle": true
+}
