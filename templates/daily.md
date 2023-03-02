@@ -22,7 +22,6 @@ action QuickAdd: add_personal_task_to_current_daily_file
 tags include #work_task
 due on  <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
 ```
-
 ```button
 name Add
 type command
@@ -30,7 +29,6 @@ action QuickAdd: add_work_task_to_current_daily_file
 ```
 ---
 ##### Notes created today
-
 ```dataview
 
 List FROM "" WHERE file.cday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.ctime asc
