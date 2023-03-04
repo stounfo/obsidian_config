@@ -1,37 +1,30 @@
 ---
 created: "<% tp.file.creation_date() %>"
+cssclass: daily
 tags:
     - daily
 ---
 
-# [<< Yesterday](/database/daily/<% moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY/MM-MMM/YYYY-MM-DD-dddd') %>)    <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>    [Tomorrow >>](/database/daily/<% moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY/MM-MMM/YYYY-MM-DD-dddd') %>)
-
+# [<< Yesterday](/database/daily/<% moment(tp.file.title, "YYYY-MM-DD-dddd").subtract(1, "d").format("YYYY/MM-MMM/YYYY-MM-DD-dddd") %>) [Tomorrow >>](/database/daily/<% moment(tp.file.title, "YYYY-MM-DD-dddd").add(1, "d").format("YYYY/MM-MMM/YYYY-MM-DD-dddd") %>)
+# <% moment(tp.file.title,"YYYY-MM-DD").format("dddd, MMMM DD, YYYY") %>
 ---
-##### Personal TODO
-```tasks
-tags include #personal_task
-due on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
-```
+## Tasks
+##### Personal
 ```button
-name Add
-type command
-action QuickAdd: add_personal_task_to_current_daily_file
+name New Personal Task
+type prepend template
+action add_personal_daily_task
 ```
-##### Work TODO
-```tasks
-tags include #work_task
-due on  <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
-```
+##### Work
 ```button
-name Add
-type command
-action QuickAdd: add_work_task_to_current_daily_file
+name New Work Task
+type prepend template
+action add_work_daily_task
 ```
 ---
-##### Notes created today
+##### Notes created
 ```dataview
 
 List FROM "" WHERE file.cday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.ctime asc
 
 ```
-

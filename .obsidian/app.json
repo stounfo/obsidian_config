@@ -5,5 +5,9 @@
   "useMarkdownLinks": true,
   "showFrontmatter": true,
   "useTab": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "defaultViewMode": "preview"
 }

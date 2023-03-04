@@ -1,5 +1,10 @@
 {
   "accentColor": "",
   "cssTheme": "Minimal",
-  "theme": "system"
+  "theme": "system",
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "daily"
+  ]
 }

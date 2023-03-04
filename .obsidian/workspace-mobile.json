@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "199f41c0989afc31",
+        "id": "6fc1d89f03c6b54d",
         "type": "tabs",
         "children": [
           {
-            "id": "db33b4aab9cdc2c3",
+            "id": "e6aa8f3c1568ff9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/daily/2023/03-Mar/2023-03-02-Thursday.md",
+                "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-02-Thursday.md",
+            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-02-Thursday.md",
+            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-02-Thursday.md"
+            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md"
           }
         }
       }
@@ -131,15 +131,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db33b4aab9cdc2c3",
+  "active": "e6aa8f3c1568ff9f",
   "lastOpenFiles": [
+    "database/tasks.md",
+    "database/daily/2023/03-Mar/2023-03-06-Monday.md",
     "database/daily/2023/03-Mar/2023-03-05-Sunday.md",
     "database/daily/2023/03-Mar/2023-03-04-Saturday.md",
-    "database/daily/2023/03-Mar/2023-03-03-Friday.md",
-    "database/daily/2023/03-Mar/2023-03-02-Thursday.md",
+    "templates/add_personal_daily_note.md",
+    "database/daily/2023/02-Feb/2023-02-28-Tuesday.md",
     "database/daily/2023/03-Mar/2023-03-01-Wednesday.md",
+    "database/daily/2023/03-Mar/2023-03-02-Thursday.md",
+    "database/daily/2023/03-Mar/2023-03-03-Friday.md",
+    "templates/add_work_daily_note.md",
     "database/scripts/add_current_daily_file_date_to_window.js",
-    "database/tasks.md",
     "database/scripts",
     "templates/daily_todo.md",
     "database/daily/2023/03-Mar",
