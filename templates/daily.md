@@ -79,5 +79,6 @@ List FROM "" WHERE file.mday = date("<% moment(tp.file.title,"YYYY-MM-DD").forma
 ---
 ## Data
 ##### Tasks
-- [ ] Read a book #task #habits_task #daily_task 📅 <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
-- [ ] Learn English words #task #habits_task #daily_task 📅 <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
+- [ ] Book #task #habits_task #daily_task 📅 <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
+- [ ] English #task #habits_task #daily_task 📅 <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
+- [ ] Pet project #task #habits_task #daily_task 📅 <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
