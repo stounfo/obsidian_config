@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "{{VALUE: Task Description}} #task #personal_task #daily_task 📅 <% moment(tp.file.title,'YYYY-MM-DD').format(\"YYYY-MM-DD\") %>"
+        "format": "{{VALUE: Description}} #task #personal_task #daily_task 📅 <% moment(tp.file.title,'YYYY-MM-DD').format(\"YYYY-MM-DD\") %>"
       },
       "insertAfter": {
         "enabled": false,
@@ -49,7 +49,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "{{VALUE: Task Description}} #task #work_task #daily_task 📅 <% moment(tp.file.title,'YYYY-MM-DD').format(\"YYYY-MM-DD\") %>"
+        "format": "{{VALUE: Description}} #task #work_task #daily_task 📅 <% moment(tp.file.title,'YYYY-MM-DD').format(\"YYYY-MM-DD\") %>"
       },
       "insertAfter": {
         "enabled": false,

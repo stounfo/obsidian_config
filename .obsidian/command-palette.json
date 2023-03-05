@@ -1,5 +1,7 @@
 {
   "pinned": [
-    "obsidian-tasks-plugin:edit-task"
+    "obsidian-tasks-plugin:edit-task",
+    "daily-notes",
+    "obsidian-full-calendar:full-calendar-open"
   ]
 }

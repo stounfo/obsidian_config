@@ -61,6 +61,11 @@ hide done date
 ```
 ---
 ## Events
+```button
+name New Event
+type command
+action Full Calendar: New Event
+```
 ---
 ## Activities
 ##### Notes created
