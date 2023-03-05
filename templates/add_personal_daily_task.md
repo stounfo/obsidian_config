@@ -1,1 +1,0 @@
-<% tp.user.add_daily_task(tp, "personal_task") %>

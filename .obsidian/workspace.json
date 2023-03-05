@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5bfa5cd5dd361c5a",
+        "id": "f8003a5ebed02565",
         "type": "tabs",
         "children": [
           {
-            "id": "b8abcd5642a4deab",
+            "id": "1f26a7fbeb0d3a43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/daily/2023/03-Mar/2023-03-04-Saturday.md",
+                "file": "database/daily/2023/03-Mar/2023-03-05-Sunday.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "database/daily/2023/03-Mar/2023-03-04-Saturday.md",
+                "file": "database/daily/2023/03-Mar/2023-03-05-Sunday.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "database/daily/2023/03-Mar/2023-03-04-Saturday.md",
+                "file": "database/daily/2023/03-Mar/2023-03-05-Sunday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,20 +125,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/daily/2023/03-Mar/2023-03-04-Saturday.md"
+                "file": "database/daily/2023/03-Mar/2023-03-05-Sunday.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 296.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "daily-notes:Open today's daily note": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": true,
@@ -147,43 +149,43 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "b8abcd5642a4deab",
+  "active": "7f27268001e4bb5f",
   "lastOpenFiles": [
     "database/daily/2023/03-Mar/2023-03-05-Sunday.md",
-    "database/daily/2023/03-Mar/2023-03-04-Saturday.md",
     "database/daily/2023/03-Mar",
     "database/daily/2023",
-    "templates/add_personal_daily_task.md",
     "templates/daily.md",
+    "database/daily/2023/03-Mar/2023-03-06-Monday.md",
+    "database/daily/2023/03-Mar/2023-03-07-Tuesday.md",
+    "database/daily/2023/03-Mar/2023-03-04-Saturday.md",
+    "sosite.md",
+    "templates/add_personal_daily_task.md",
+    "database/daily/2023/03-Mar/2023-03-01-Wednesday.md",
+    "database/daily/2023/03-Mar/2023-03-14-Tuesday.md",
+    "database/daily/2023/03-Mar/2023-03-02-Thursday.md",
+    "database/daily/2023/03-Mar/2023-03-13-Monday.md",
     "templates/add_work_daily_task.md",
     "scripts/add_daily_task.js",
-    "scripts/add_daily_note.js",
     "scripts",
-    "database/daily/2023/03-Mar/2023-03-06-Monday.md",
+    "database/daily",
+    "database/scripts/add_current_daily_file_date_to_window.js",
+    "database/scripts",
+    "scripts/add_daily_note.js",
     "database/tasks.md",
     "database/daily/2023/03-Mar/2023-03-03-Friday.md",
-    "database/daily/2023/03-Mar/2023-03-01-Wednesday.md",
-    "database/daily/2023/03-Mar/2023-03-02-Thursday.md",
     "database/daily/2023/02-Feb/2023-02-28-Tuesday.md",
     "database/daily/2023/02-Feb",
     "scripts/add_current_daily_file_date_to_window.js",
     "database/Untitled.md",
-    "database/daily",
     "database/daily/2023/02-Feb/2023-02-24-Friday.md",
     "database/daily/2023/02-Feb/2023-02-25-Saturday.md",
     "database/daily/2023/02-Feb/2023-02-26-Sunday.md",
     "database/daily/2023/02-Feb/2023-02-27-Monday.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "database/daily/2023/03-Mar/2023-03-07-Tuesday.md",
     "test/something else.md",
     "test/Test file.md",
-    "test",
-    "database/scripts/add_current_daily_file_date_to_window.js~",
     "templates/add_task.md",
     "database/scripts/store_.md",
-    "database/daily/2023/03-Mar/2023-03-09-Thursday.md",
-    "database/daily/2023/03-Mar/2023-03-08-Wednesday.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -8,15 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e6aa8f3c1568ff9f",
+            "id": "68e4028d991acb3c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "full-calendar-view",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,15 +107,14 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md"
-          }
+          "state": {}
         }
       }
     ]
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-full-calendar:Open Full Calendar": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -131,12 +124,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6aa8f3c1568ff9f",
+  "active": "68e4028d991acb3c",
   "lastOpenFiles": [
-    "database/tasks.md",
-    "database/daily/2023/03-Mar/2023-03-06-Monday.md",
-    "database/daily/2023/03-Mar/2023-03-05-Sunday.md",
     "database/daily/2023/03-Mar/2023-03-04-Saturday.md",
+    "database/daily/2023/03-Mar/2023-03-05-Sunday.md",
+    "database/daily/2023/03-Mar/2023-03-06-Monday.md",
+    "database/daily/2023/03-Mar/2023-03-07-Tuesday.md",
+    "sosite.md",
+    "database/tasks.md",
     "templates/add_personal_daily_note.md",
     "database/daily/2023/02-Feb/2023-02-28-Tuesday.md",
     "database/daily/2023/03-Mar/2023-03-01-Wednesday.md",
