@@ -9,7 +9,10 @@
   "showUnsupportedFiles": true,
   "readableLineLength": true,
   "strictLineBreaks": false,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "newFileLocation": "folder",
-  "newFileFolderPath": "database"
+  "newFileFolderPath": "database",
+  "livePreview": true,
+  "showLineNumber": false,
+  "rightToLeft": false
 }

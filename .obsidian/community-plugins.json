@@ -5,5 +5,7 @@
   "obsidian-tasks-plugin",
   "quickadd",
   "buttons",
-  "obsidian-full-calendar"
+  "obsidian-full-calendar",
+  "obsidian-tracker",
+  "obsidian-view-mode-by-frontmatter"
 ]
