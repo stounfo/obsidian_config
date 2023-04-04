@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "10866f6e-a0a1-49d5-a703-85b1e4ef7e5a",
-      "name": "add_personal_daily_task",
+      "name": "add_daily_task",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -15,41 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "{{VALUE: Description}} #task #personal_task #daily_task 📅 <% moment(tp.file.title,'YYYY-MM-DD').format(\"YYYY-MM-DD\") %>"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": true,
-      "task": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "0e5b2b66-253a-4daa-bf6c-17ddd3f440cc",
-      "name": "add_work_daily_task",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{VALUE: Description}} #task #work_task #daily_task 📅 <% moment(tp.file.title,'YYYY-MM-DD').format(\"YYYY-MM-DD\") %>"
+        "format": "#daily_task {{VALUE: Description}} 📅 <% moment(tp.file.title,'YYYY-MM-DD').format(\"YYYY-MM-DD\") %>"
       },
       "insertAfter": {
         "enabled": false,
@@ -114,10 +80,13 @@
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "templates",
+  "announceUpdates": true,
+  "version": "0.17.1",
   "migrations": {
     "migrateToMacroIDFromEmbeddedMacro": true,
     "useQuickAddTemplateFolder": true,
     "incrementFileNameSettingMoveToDefaultBehavior": true,
-    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
   }
 }

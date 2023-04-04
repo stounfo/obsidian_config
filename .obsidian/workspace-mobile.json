@@ -1,44 +1,35 @@
 {
   "main": {
-    "id": "5db51dfc7e5145a6",
+    "id": "f330f34a2b75fbd6",
     "type": "split",
     "children": [
       {
-        "id": "6fc1d89f03c6b54d",
+        "id": "1b8c1d4d37f8b813",
         "type": "tabs",
         "children": [
           {
-            "id": "68e4028d991acb3c",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "5270f502c77de195",
+            "id": "c802a4ee7a795eb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
+                "file": "database/daily/2023/04-Apr/2023-04-04-Tuesday.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e377f88ba405dc5e",
+    "id": "8ed733ef0d2842dc",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "29f878560767d0d7",
+        "id": "37bc29bc13fbc153",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -48,7 +39,7 @@
         }
       },
       {
-        "id": "9a1372b2742c4fb0",
+        "id": "56870cd09a20b10b",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -63,7 +54,7 @@
         }
       },
       {
-        "id": "eb501fce2f7cf733",
+        "id": "f52272d410182619",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -74,7 +65,7 @@
         }
       },
       {
-        "id": "3d6e6c413093b0ae",
+        "id": "7c227cac5d359bea",
         "type": "leaf",
         "state": {
           "type": "starred",
@@ -85,16 +76,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "331d0d24f5f9ed82",
+    "id": "9e294a1eac4810f5",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "35081170a4fe6663",
+        "id": "2f48f5ccb9501270",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
+            "file": "database/daily/2023/04-Apr/2023-04-04-Tuesday.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -106,32 +97,40 @@
         }
       },
       {
-        "id": "3f89f156dca23fd8",
+        "id": "e1ad3c9bd1cacfa8",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md",
+            "file": "database/daily/2023/04-Apr/2023-04-04-Tuesday.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "a79fe95539850a98",
+        "id": "9dc59386921964af",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "database/daily/2023/03-Mar/2023-03-06-Monday.md"
+            "file": "database/daily/2023/04-Apr/2023-04-04-Tuesday.md"
           }
         }
+      },
+      {
+        "id": "0ee3d106b4a27ff2",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
       }
-    ]
+    ],
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-full-calendar:Open Full Calendar": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -141,44 +140,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5270f502c77de195",
+  "active": "c802a4ee7a795eb8",
   "lastOpenFiles": [
-    "database/daily/2023/03-Mar/2023-03-09-Thursday.md",
-    "database/daily/2023/03-Mar/2023-03-08-Wednesday.md",
-    "database/daily/2023/03-Mar/2023-03-07-Tuesday.md",
-    "database/daily/2023/03-Mar/2023-03-05-Sunday.md",
-    "database/daily/2023/03-Mar/2023-03-04-Saturday.md",
-    "database/daily/2023/03-Mar/2023-03-06-Monday.md",
-    "sosite.md",
-    "database/tasks.md",
-    "templates/add_personal_daily_note.md",
-    "database/daily/2023/02-Feb/2023-02-28-Tuesday.md",
-    "database/daily/2023/03-Mar/2023-03-01-Wednesday.md",
-    "database/daily/2023/03-Mar/2023-03-02-Thursday.md",
-    "database/daily/2023/03-Mar/2023-03-03-Friday.md",
-    "templates/add_work_daily_note.md",
-    "database/scripts/add_current_daily_file_date_to_window.js",
-    "database/scripts",
-    "templates/daily_todo.md",
-    "database/daily/2023/03-Mar",
+    "database/daily/2023/04-Apr/2023-04-03-Monday.md",
+    "database/daily/2023/04-Apr/2023-04-04-Tuesday.md",
+    "templates/add_daily_emotions.md",
+    "templates/add_daily_reflection.md",
+    "database/daily/2023/04-Apr/2023-04-03-Monday 2.md",
+    "database/daily/2023/04-Apr",
     "database/daily/2023",
-    "database/daily",
-    "database",
-    "Untitled.md",
-    "daily/2023-02-28.md",
-    "2023-02-28.md",
-    "Saved.md",
-    "Untitled.canvas",
-    "English.md",
-    "Development.md",
-    "files",
-    "daily",
-    "base",
-    "templates",
-    "test/Test file.md",
-    "Untitled 1.canvas",
-    "2023-02-27.md",
-    "test/something else.md",
-    "Test file.md"
+    "database/Programming with Types.md",
+    "database/daily/2023/04-Apr/2023-04-02-Sunday.md",
+    "database/daily/2023/03-Mar/2023-03-30-Thursday 2.md",
+    "database/daily/2023/03-Mar/2023-03-30-Thursday.md",
+    "database/Untitled.md",
+    "database/daily/2023/03-Mar/2023-03-28-Tuesday.md",
+    "database/daily/2023/03-Mar/2023-03-24-Friday.md",
+    "database/daily/2023/03-Mar/2023-03-26-Sunday.md",
+    "database/daily/2023/03-Mar/2023-03-20-Monday.md",
+    "database/daily/2023/03-Mar/2023-03-17-Friday 2.md",
+    "database/daily/2023/03-Mar/2023-03-21-Tuesday.md",
+    "database/daily/2023/03-Mar/2023-03-18-Saturday.md",
+    "templates/books.md",
+    "templates/daily.md",
+    "database/daily/2023/03-Mar/2023-03-17-Friday.md",
+    "database/books",
+    "database/notes",
+    "database/daily/2023/03-Mar/2023-03-14-Tuesday.md",
+    "database/daily/2023/03-Mar/2023-03-16-Thursday.md",
+    "database/daily/2023/03-Mar/2023-03-15-Wednesday.md",
+    "database/daily/2023/03-Mar/2023-03-13-Monday.md",
+    "database/daily/2023/03-Mar/2023-03-12-Sunday.md",
+    "database/daily/2023/03-Mar/2023-03-11-Saturday.md"
   ]
 }

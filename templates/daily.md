@@ -8,75 +8,65 @@ tags:
 
 # [<< Yesterday](/database/daily/<% moment(tp.file.title, "YYYY-MM-DD-dddd").subtract(1, "d").format("YYYY/MM-MMM/YYYY-MM-DD-dddd") %>) [Tomorrow >>](/database/daily/<% moment(tp.file.title, "YYYY-MM-DD-dddd").add(1, "d").format("YYYY/MM-MMM/YYYY-MM-DD-dddd") %>)
 # <% moment(tp.file.title,"YYYY-MM-DD").format("dddd, MMMM DD, YYYY") %>
-### [Tasks](#Tasks) • [Events](#Events) • [Trackers](#Trackers) • [Overview](#Overview) • [Data](#Data)
+##### [Tasks](#Tasks) • [Trackers](#Trackers) • [Overview](#Overview) • [Data](#Data)
 ---
-## Tasks
-##### Personal
-```tasks
-path includes <% tp.file.path(true) %>
-tags include #personal_task
-tags include #daily_task
-due on <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
+### Tasks
 
-hide backlink
-hide due date
-hide done date
-```
-```button
-name New Personal Task
-type command
-action QuickAdd: add_personal_daily_task
-```
-##### Work
-```tasks
-path includes <% tp.file.path(true) %>
-tags include #work_task
-tags include #daily_task
-due on <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
+> [!todo] To Do
+>```tasks
+>not done
+>path includes <% tp.file.path(true) %>
+>due on <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
+>
+>hide backlink
+>hide due date
+>```
+>```button
+>name New Task
+>type command
+>action QuickAdd: add_daily_task
+>```
 
-hide backlink
-hide due date
-hide done date
-```
-```button
-name New Personal Task
-type command
-action QuickAdd: add_work_daily_task
-```
-##### Unfinished tasks 
-```tasks
-not done
-due before <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
-tags does not include #habits_task
-```
+> [!warning] Debt 
+>```tasks
+>not done
+>due before today
+>```
+
+> [!done] Done
+>```tasks
+>done on <% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>
+>
+>hide backlink
+>hide due date
+>hide done date
+>```
+
 ---
-## Events
-```button
-name New Event
-type command
-action Full Calendar: New Event
-```
+### Trackers
+
+> [!question] Habits
+>- [ ] Reading
+>- [ ] English
+>- [ ] Pet project
+>- [ ] Running
+
+> [!tip] Emotions
+>```button
+>name Fill Emotions
+>type prepend template
+>action add_daily_emotions
+>```
+
+> [!Note] Reflection
+>```button
+>name Fill Reflection
+>type prepend template
+>action add_daily_reflection
+>```
+
 ---
-## Trackers
-##### Habits
-- [ ] Reading
-- [ ] English
-- [ ] Pet project
-- [ ] Running
-##### Emotions
-```button
-name Evaluate Emotions
-type prepend template
-action add_daily_emotions
-```
-##### Reflection
-```button
-name Fill Reflection
-type prepend template
-action add_daily_reflection
-```
----
-## Overview
+### Overview
 ##### Notes created
 ```dataview
 List FROM "" WHERE file.cday = date("<% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>") SORT file.ctime asc
@@ -86,6 +76,5 @@ List FROM "" WHERE file.cday = date("<% moment(tp.file.title,"YYYY-MM-DD").forma
 List FROM "" WHERE file.mday = date("<% moment(tp.file.title,"YYYY-MM-DD").format("YYYY-MM-DD") %>") SORT file.ctime asc
 ```
 ---
-## Data
+### Data
 ##### Tasks
-

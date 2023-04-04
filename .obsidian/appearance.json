@@ -6,5 +6,6 @@
     "dashboard",
     "dashboard-ReadLineLength",
     "daily"
-  ]
+  ],
+  "baseFontSize": 16
 }

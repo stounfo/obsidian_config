@@ -5,6 +5,6 @@ async function add_daily_reflection() {
     if (!reflection) {
         return "";
     };
-    return reflection;
+    return ">" + reflection;
 }
 %><% add_daily_reflection() %>

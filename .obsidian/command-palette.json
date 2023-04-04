@@ -2,6 +2,7 @@
   "pinned": [
     "obsidian-tasks-plugin:edit-task",
     "daily-notes",
-    "obsidian-full-calendar:full-calendar-open"
+    "obsidian-full-calendar:full-calendar-open",
+    "templater-obsidian:create-new-note-from-template"
   ]
 }

@@ -11,8 +11,34 @@
   "strictLineBreaks": false,
   "defaultViewMode": "source",
   "newFileLocation": "folder",
-  "newFileFolderPath": "database",
+  "newFileFolderPath": "database/common",
   "livePreview": true,
   "showLineNumber": false,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-highlight",
+    "editor:toggle-strikethrough",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:toggle-keyboard",
+    "editor:configure-toolbar",
+    "editor:redo"
+  ],
+  "spellcheckDictionary": [
+    "composability"
+  ]
 }
