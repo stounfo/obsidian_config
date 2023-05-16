@@ -4,30 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "a361d2593b6ff265",
+        "id": "744e482fd8d2c5a7",
         "type": "tabs",
         "children": [
           {
-            "id": "eb7b7afd258beefa",
+            "id": "9e488a2e72cf3ea1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/daily/2023/04-Apr/2023-04-04-Tuesday.md",
-                "mode": "preview",
+                "file": "database/common/Созвон.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dc5a3ee523dfd80b",
+            "id": "b827584133178281",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/common/What I must check when adding an Enlish word in Anki.md",
+                "file": "templates/add_daily_emotions.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "833998d2ef195298",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
               }
             }
           }
@@ -77,6 +87,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "45fd54ff224e10af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -98,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "database/common/What I must check when adding an Enlish word in Anki.md",
+                "file": "templates/add_daily_emotions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "database/common/What I must check when adding an Enlish word in Anki.md",
+                "file": "templates/add_daily_emotions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +156,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "database/common/What I must check when adding an Enlish word in Anki.md"
+                "file": "templates/add_daily_emotions.md"
               }
             }
           },
           {
-            "id": "7d88739c14ec18af",
+            "id": "87830fa291902be6",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -151,11 +169,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,43 +184,43 @@
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": true,
-      "flashcards-obsidian:Generate flashcards": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "dc5a3ee523dfd80b",
+  "active": "7f27268001e4bb5f",
   "lastOpenFiles": [
-    "database/daily/2023/04-Apr/2023-04-04-Tuesday.md",
-    "database/common/What I must check when adding an Enlish word in Anki.md",
-    "templates/add_daily_emotions.md",
-    "database/daily/2023/04-Apr/2023-04-03-Monday.md",
     "templates/daily.md",
-    "templates/books.md",
-    "database/books/Programming with Types.md",
-    "database/daily/2023/04-Apr/2023-04-02-Sunday.md",
-    "templates/add_daily_reflection.md",
-    "database/daily/2023/04-Apr/2023-04-05-Wednesday.md",
-    "database/daily/2023/04-Apr/2023-04-03-Monday 2.md",
-    "database/words/enforce.md",
+    "database/daily/2023/05-May/2023-05-16-Tuesday.md",
+    "database/daily/2023/05-May/2023-05-11-Thursday.md",
+    "database/common/Созвон.md",
+    "database/common/Untitled.md",
+    "database/daily/2023/05-May/2023-05-05-Friday.md",
+    "database/daily/2023/05-May/2023-05-04-Thursday.md",
+    "database/daily/2023/05-May/2023-05-03-Wednesday 2.md",
+    "database/daily/2023/05-May/2023-05-03-Wednesday.md",
+    "database/daily/2023/05-May/2023-05-01-Monday.md",
+    "Screenshot 2023-04-12 at 2.00.36 PM.png",
+    "database/common/What I must check when adding an Enlish word in Anki.md",
+    "database/common/Регистрация пользователя..md",
+    "database/daily/2023/04-Apr/2023-04-28-Friday.md",
+    "database/daily/2023/04-Apr/2023-04-24-Monday.md",
+    "database/daily/2023/04-Apr/2023-04-18-Tuesday.md",
+    "database/daily/2023/04-Apr/2023-04-22-Saturday.md",
+    "database/daily/2023/04-Apr/2023-04-17-Monday.md",
+    "database/daily/2023/04-Apr/2023-04-16-Sunday.md",
+    "database/daily/2023/04-Apr/2023-04-14-Friday.md",
+    "database/daily/2023/04-Apr/2023-04-13-Thursday.md",
+    "database/daily/2023/04-Apr/2023-04-12-Wednesday.md",
+    "database/daily/2023/04-Apr/2023-04-11-Tuesday.md",
+    "database/common/Shopping list.md",
+    "database/daily/2023/04-Apr/2023-04-03-Monday.md",
+    "database/daily/2023/04-Apr/2023-04-10-Monday.md",
+    "database/common/ПЭП в АТИ водителе.md",
     "database/words",
-    "words/enforce.md",
     "words",
-    "database/books/Untitled.md",
     "database/daily/2023/04-Apr",
     "database/daily/2023",
-    "database/common/test.md",
-    "database/w.md",
     "database/common",
-    "database/Untitled 6.md",
-    "database/daily/2023/03-Mar/2023-03-24-Friday.md",
-    "database/daily/2023/03-Mar/2023-03-21-Tuesday.md",
-    "database/daily/2023/03-Mar/2023-03-20-Monday.md",
-    "database/daily/2023/03-Mar/2023-03-18-Saturday.md",
-    "database/daily/2023/03-Mar/2023-03-17-Friday.md",
-    "database/Untitled 1.md",
-    "database/Untitled 2.md",
-    "database/daily/2023/03-Mar/2023-03-14-Tuesday.md",
-    "database/daily/2023/03-Mar/2023-03-13-Monday 2.md",
     "database/daily/2023/03-Mar",
     "database/english",
     "database/daily",

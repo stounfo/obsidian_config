@@ -1,13 +1,11 @@
 [
-  "obsidian-languagetool-plugin",
-  "dataview",
-  "templater-obsidian",
-  "obsidian-tasks-plugin",
-  "quickadd",
   "buttons",
-  "obsidian-tracker",
-  "obsidian-view-mode-by-frontmatter",
   "calendar",
-  "flashcards-obsidian",
-  "obsidian-style-settings"
+  "dataview",
+  "obsidian-view-mode-by-frontmatter",
+  "obsidian-languagetool-plugin",
+  "quickadd",
+  "obsidian-style-settings",
+  "obsidian-tasks-plugin",
+  "templater-obsidian"
 ]
