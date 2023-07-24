@@ -1,11 +1,10 @@
 [
-  "buttons",
   "calendar",
   "dataview",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-languagetool-plugin",
   "quickadd",
-  "obsidian-style-settings",
   "obsidian-tasks-plugin",
-  "templater-obsidian"
+  "templater-obsidian",
+  "buttons"
 ]

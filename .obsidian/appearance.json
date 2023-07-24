@@ -1,6 +1,6 @@
 {
-  "accentColor": "",
-  "cssTheme": "Minimal",
+  "accentColor": "#3e5bd0",
+  "cssTheme": "",
   "theme": "system",
   "enabledCssSnippets": [
     "dashboard",

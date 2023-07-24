@@ -1,9 +1,9 @@
-.daily h1 {
+.daily h2 {
     display: flex;
     justify-content: space-between;
 }
 
-.daily h1 .heading-collapse-indicator {
+.daily h2 .heading-collapse-indicator {
     display: none;
 }
 

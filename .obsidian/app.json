@@ -2,8 +2,8 @@
   "promptDelete": false,
   "vimMode": true,
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true,
-  "showFrontmatter": true,
+  "useMarkdownLinks": false,
+  "showFrontmatter": false,
   "useTab": false,
   "showInlineTitle": true,
   "showUnsupportedFiles": true,
@@ -11,7 +11,7 @@
   "strictLineBreaks": false,
   "defaultViewMode": "source",
   "newFileLocation": "folder",
-  "newFileFolderPath": "database/common",
+  "newFileFolderPath": "Notes",
   "livePreview": true,
   "showLineNumber": false,
   "rightToLeft": false,
@@ -39,6 +39,9 @@
     "editor:redo"
   ],
   "spellcheckDictionary": [
-    "composability"
+    "composability",
+    "anki",
+    "Anki",
+    "JSONs"
   ]
 }

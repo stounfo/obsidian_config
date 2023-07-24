@@ -1,6 +1,6 @@
 {
-  "folder": "database/daily",
-  "template": "templates/daily",
+  "folder": "Daily",
+  "template": "Templates/daily_template",
   "format": "YYYY/MM-MMM/YYYY-MM-DD-dddd",
   "autorun": true
 }
