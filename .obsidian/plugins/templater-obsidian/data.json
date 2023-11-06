@@ -21,6 +21,10 @@
     {
       "folder": "Daily/Notes",
       "template": "Templates/daily_notes_template.md"
+    },
+    {
+      "folder": "Notes",
+      "template": "Templates/notes_template.md"
     }
   ],
   "syntax_highlighting": true,
