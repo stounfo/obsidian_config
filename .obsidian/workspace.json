@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1cc054d19becef66",
+        "id": "359512a92861c40b",
         "type": "tabs",
         "children": [
           {
-            "id": "023849790ab365d2",
+            "id": "84caa45627ae9cd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023/11-Nov/2023-11-06-Monday.md",
+                "file": "Notes/Methods of concurrent execution in asyncio.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -81,20 +81,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87830fa291902be6",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "1ecd8e45a9dc3aa6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023/11-Nov/2023-11-06-Monday.md"
+                "file": "Notes/Methods of concurrent execution in asyncio.md"
               }
             }
           },
@@ -115,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023/11-Nov/2023-11-06-Monday.md",
+                "file": "Notes/Methods of concurrent execution in asyncio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023/11-Nov/2023-11-06-Monday.md",
+                "file": "Notes/Methods of concurrent execution in asyncio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -158,7 +150,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": true,
@@ -167,12 +158,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "023849790ab365d2",
+  "active": "84caa45627ae9cd2",
   "lastOpenFiles": [
+    "Notes/Python cool code snippets and tips.md",
+    "Templates/notes_template.md",
+    "Templates/book_template.md",
+    "Templates/daily_template.md",
+    "Templates/daily_notes_template.md",
+    "Daily/2023/11-Nov/2023-11-06-Monday.md",
     "Notes/Metanotes/Rust.md",
     "Notes/Metanotes/Python.md",
     "Notes/Adding words in English.md",
-    "Daily/2023/11-Nov/2023-11-06-Monday.md",
     "Daily/2023/11-Nov/2023-11-01-Wednesday.md",
     "Notes/Preemptive and cooperative multitasking.md",
     "Daily/2023/11-Nov",
@@ -189,13 +185,8 @@
     "Daily/2023/10-Oct/2023-10-18-Wednesday.md",
     "Daily/2023/10-Oct",
     "Daily/2023",
-    "Notes/Python cool code snippets and tips.md",
     "Daily/2023/10-Oct/2023-10-10-Tuesday.md",
-    "Templates/notes_template.md",
     "Notes/<% tp.file.cursor(1) %>.md",
-    "Templates/book_template.md",
-    "Templates/daily_notes_template.md",
-    "Templates/daily_template.md",
     "Notes/Method of concurrent  execution in asyncio.md",
     "Daily/2023/10-Oct/2023-10-05-Thursday.md",
     "Daily/2023/09-Sep",
