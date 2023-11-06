@@ -1,12 +1,9 @@
 ---
 cssclass: daily
 obsidianUIMode: preview
----
-
-related: [[Daily]]
+related: "[[Daily]]"
 
 ---
-
 ## [<< Yesterday](/Daily/<% moment(tp.file.title, "YYYY-MM-DD-dddd").subtract(1, "d").format("YYYY/MM-MMM/YYYY-MM-DD-dddd") %>) [Tomorrow >>](/Daily/<% moment(tp.file.title, "YYYY-MM-DD-dddd").add(1, "d").format("YYYY/MM-MMM/YYYY-MM-DD-dddd") %>)
 # <% moment(tp.file.title,"YYYY-MM-DD").format("dddd, MMMM DD, YYYY") %>
 ###### [Notes](#Notes) • [Tasks](#Tasks) • [Trackers](#Trackers) • [Overview](#Overview) • [Data](#Data)
